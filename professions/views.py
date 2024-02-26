@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from rest_framework import viewsets
 
-# Create your views here.
+from professions.models import Profession
+from professions.serializers import ProfessionSerializer
+
+
+class ProfessionViewSet(viewsets.ModelViewSet):
+    """Endpoint for CRUD operations with professions"""
+
+    queryset = Profession.objects.all()
+    serializer_class = ProfessionSerializer
