@@ -8,5 +8,5 @@ from topics.serializers import TopicSerializer
 class TopicViewSet(viewsets.ModelViewSet):
     """Endpoint for CRUD operations with topics"""
 
-    queryset = Topic.objects.all()
+    queryset = Topic.objects.all().prefetch_related("useful_links")
     serializer_class = TopicSerializer
