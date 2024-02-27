@@ -23,4 +23,5 @@ urlpatterns = [
     path("api/professions/", include("professions.urls", namespace="professions")),
     path("api/skills/", include("skills.urls", namespace="skills")),
     path("api/topics/", include("topics.urls", namespace="topics")),
+    path("__debug__/", include("debug_toolbar.urls")),
 ]
