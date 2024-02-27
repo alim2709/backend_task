@@ -9,6 +9,12 @@ class UsefulLinkSerializer(serializers.ModelSerializer):
         fields = ("id", "name", "link_url")
 
 
+class UsefulLinkListSerializer(UsefulLinkSerializer):
+    class Meta:
+        model = UsefulLink
+        fields = ("name", "link_url")
+
+
 class TopicSerializer(serializers.ModelSerializer):
     useful_links = UsefulLinkSerializer(many=True, read_only=False)
 
@@ -23,3 +29,11 @@ class TopicSerializer(serializers.ModelSerializer):
         for useful_link_data in useful_links_data:
             UsefulLink.objects.create(topic=topic, **useful_link_data)
         return topic
+
+
+class TopicListSerializer(TopicSerializer):
+    useful_links = UsefulLinkListSerializer(many=True, read_only=False)
+
+    class Meta:
+        model = Topic
+        fields = ("name", "description", "pet_project_ideas", "useful_links")
