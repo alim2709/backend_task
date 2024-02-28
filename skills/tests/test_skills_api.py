@@ -58,6 +58,20 @@ class SkillApiTests(TestCase):
         self.assertEquals(res.status_code, status.HTTP_200_OK)
         self.assertEquals(res.data, serializer.data)
 
+    def test_create_skill(self):
+        topic_with_usefullink = sample_useful_link()
+        topic = Topic.objects.get(id=topic_with_usefullink.topic.id)
+
+        skill_payload = {
+            "name": "test_skill",
+            "description": "test_description",
+            "topics": [
+                topic.id,
+            ],
+        }
+        res = self.client.post(SKILL_URL, skill_payload)
+        self.assertEqual(res.status_code, status.HTTP_201_CREATED)
+
     def test_update_skill(self):
         skill = self.skill_1
         skill_payload = {
