@@ -1,8 +1,7 @@
-from django.shortcuts import render
 from rest_framework import viewsets
 
 from topics.models import Topic
-from topics.serializers import TopicSerializer
+from topics.serializers import TopicSerializer, TopicListSerializer
 
 
 class TopicViewSet(viewsets.ModelViewSet):
@@ -10,3 +9,8 @@ class TopicViewSet(viewsets.ModelViewSet):
 
     queryset = Topic.objects.all().prefetch_related("useful_links")
     serializer_class = TopicSerializer
+
+    def get_serializer_class(self):
+        if self.action == "list":
+            return TopicListSerializer
+        return TopicSerializer
