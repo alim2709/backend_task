@@ -1,0 +1,872 @@
+[
+{
+  "model": "professions.profession",
+  "pk": 1,
+  "fields": {
+    "name": "Data Scientist",
+    "description": "Data ScientistData ScientistData ScientistData ScientistData ScientistData ScientistData ScientistData ScientistData Scientist",
+    "skills": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "professions.profession",
+  "pk": 2,
+  "fields": {
+    "name": "UX/UI Designer",
+    "description": "UX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI DesignerUX/UI Designer",
+    "skills": [
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "professions.profession",
+  "pk": 3,
+  "fields": {
+    "name": "Project Manager",
+    "description": "Project ManagerProject ManagerProject ManagerProject ManagerProject ManagerProject ManagerProject Manager",
+    "skills": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "professions.profession",
+  "pk": 4,
+  "fields": {
+    "name": "Digital Marketer",
+    "description": "Digital Marketer Digital Marketer Digital Marketer Digital Marketer Digital Marketer Digital Marketer Digital Marketer Digital Marketer",
+    "skills": [
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+},
+{
+  "model": "professions.profession",
+  "pk": 5,
+  "fields": {
+    "name": "Software Engineer",
+    "description": "Software EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware Engineer",
+    "skills": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 1,
+  "fields": {
+    "name": "Data Analysis",
+    "description": "Data AnalysisData AnalysisData AnalysisData AnalysisData AnalysisData AnalysisData AnalysisData Analysis",
+    "level": "Beginner",
+    "topics": [
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 2,
+  "fields": {
+    "name": "Machine Learning",
+    "description": "Machine LearningMachine LearningMachine LearningMachine LearningMachine LearningMachine LearningMachine LearningMachine Learning",
+    "level": "Intermediate",
+    "topics": [
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 3,
+  "fields": {
+    "name": "Statistical Modeling",
+    "description": "Statistical ModelingStatistical ModelingStatistical ModelingStatistical ModelingStatistical ModelingStatistical ModelingStatistical ModelingStatistical Modeling",
+    "level": "Advanced",
+    "topics": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 4,
+  "fields": {
+    "name": "Programming (Python, R)",
+    "description": "Programming (Python, R)Programming (Python, R)Programming (Python, R)Programming (Python, R)Programming (Python, R)Programming (Python, R)Programming (Python, R)",
+    "level": "Beginner",
+    "topics": [
+      8,
+      11
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 5,
+  "fields": {
+    "name": "User Research",
+    "description": "User ResearchUser ResearchUser ResearchUser ResearchUser ResearchUser ResearchUser ResearchUser ResearchUser ResearchUser Research",
+    "level": "Beginner",
+    "topics": [
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 6,
+  "fields": {
+    "name": "Wireframing and Prototyping",
+    "description": "Wireframing and PrototypingWireframing and PrototypingWireframing and PrototypingWireframing and PrototypingWireframing and PrototypingWireframing and Prototyping",
+    "level": "Intermediate",
+    "topics": [
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 7,
+  "fields": {
+    "name": "Visual Design",
+    "description": "Visual DesignVisual DesignVisual DesignVisual DesignVisual DesignVisual DesignVisual DesignVisual Design",
+    "level": "Advanced",
+    "topics": [
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 8,
+  "fields": {
+    "name": "Interaction Design",
+    "description": "Interaction DesignInteraction DesignInteraction DesignInteraction DesignInteraction DesignInteraction DesignInteraction DesignInteraction Design",
+    "level": "Intermediate",
+    "topics": [
+      12,
+      15
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 9,
+  "fields": {
+    "name": "Project Planning and Scheduling",
+    "description": "Project Planning and SchedulingProject Planning and SchedulingProject Planning and SchedulingProject Planning and SchedulingProject Planning and SchedulingProject Planning and Scheduling",
+    "level": "Intermediate",
+    "topics": [
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 10,
+  "fields": {
+    "name": "Risk Management",
+    "description": "Risk ManagementRisk ManagementRisk ManagementRisk ManagementRisk ManagementRisk ManagementRisk ManagementRisk Management",
+    "level": "Advanced",
+    "topics": [
+      18,
+      19
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 11,
+  "fields": {
+    "name": "Stakeholder Communication",
+    "description": "Stakeholder CommunicationStakeholder CommunicationStakeholder CommunicationStakeholder CommunicationStakeholder CommunicationStakeholder CommunicationStakeholder CommunicationStakeholder Communication",
+    "level": "Intermediate",
+    "topics": [
+      16,
+      19
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 12,
+  "fields": {
+    "name": "Team Leadership",
+    "description": "Team LeadershipTeam LeadershipTeam LeadershipTeam LeadershipTeam LeadershipTeam LeadershipTeam LeadershipTeam Leadership",
+    "level": "Beginner",
+    "topics": [
+      17,
+      18
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 13,
+  "fields": {
+    "name": "Social Media Marketing",
+    "description": "Social Media MarketingSocial Media MarketingSocial Media MarketingSocial Media MarketingSocial Media MarketingSocial Media MarketingSocial Media Marketing",
+    "level": "Advanced",
+    "topics": [
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 14,
+  "fields": {
+    "name": "Content Strategy",
+    "description": "Content StrategyContent StrategyContent StrategyContent StrategyContent StrategyContent StrategyContent StrategyContent Strategy",
+    "level": "Intermediate",
+    "topics": [
+      22,
+      23
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 15,
+  "fields": {
+    "name": "Search Engine Optimization (SEO)",
+    "description": "Search Engine Optimization (SEO)Search Engine Optimization (SEO)Search Engine Optimization (SEO)Search Engine Optimization (SEO)Search Engine Optimization (SEO)",
+    "level": "Advanced",
+    "topics": [
+      20,
+      23
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 16,
+  "fields": {
+    "name": "Email Marketing",
+    "description": "Email MarketingEmail MarketingEmail MarketingEmail MarketingEmail MarketingEmail MarketingEmail MarketingEmail Marketing",
+    "level": "Intermediate",
+    "topics": [
+      21,
+      22
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 17,
+  "fields": {
+    "name": "Programming (Java, JavaScript, etc.)",
+    "description": "Programming (Java, JavaScript, etc.)Programming (Java, JavaScript, etc.)Programming (Java, JavaScript, etc.)Programming (Java, JavaScript, etc.)Programming (Java, JavaScript, etc.)",
+    "level": "Advanced",
+    "topics": [
+      24,
+      25
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 18,
+  "fields": {
+    "name": "Algorithm Design and Analysis",
+    "description": "Algorithm Design and AnalysisAlgorithm Design and AnalysisAlgorithm Design and AnalysisAlgorithm Design and AnalysisAlgorithm Design and AnalysisAlgorithm Design and Analysis",
+    "level": "Advanced",
+    "topics": [
+      26,
+      27
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 19,
+  "fields": {
+    "name": "Software Development Lifecycle (SDLC)",
+    "description": "Software Development Lifecycle (SDLC)Software Development Lifecycle (SDLC)Software Development Lifecycle (SDLC)Software Development Lifecycle (SDLC)Software Development Lifecycle (SDLC)Software Development Lifecycle (SDLC)",
+    "level": "Intermediate",
+    "topics": [
+      24,
+      27
+    ]
+  }
+},
+{
+  "model": "skills.skill",
+  "pk": 20,
+  "fields": {
+    "name": "Debugging and Troubleshooting",
+    "description": "Debugging and TroubleshootingDebugging and TroubleshootingDebugging and TroubleshootingDebugging and TroubleshootingDebugging and Troubleshooting",
+    "level": "Advanced",
+    "topics": [
+      25,
+      26
+    ]
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 15,
+  "fields": {
+    "name": "Kaggle",
+    "link_url": "https://www.kaggle.com/",
+    "topic": 8
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 16,
+  "fields": {
+    "name": "Towards Data Science",
+    "link_url": "https://towardsdatascience.com/",
+    "topic": 8
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 17,
+  "fields": {
+    "name": "Scikit-learn",
+    "link_url": "https://scikit-learn.org/stable/",
+    "topic": 9
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 18,
+  "fields": {
+    "name": "Analytics Vidhya",
+    "link_url": "https://www.analyticsvidhya.com/",
+    "topic": 9
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 19,
+  "fields": {
+    "name": "Hadoop",
+    "link_url": "https://hadoop.apache.org/",
+    "topic": 10
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 20,
+  "fields": {
+    "name": "Apache Spark",
+    "link_url": "https://spark.apache.org/",
+    "topic": 10
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 21,
+  "fields": {
+    "name": "D3.js",
+    "link_url": "https://d3js.org/",
+    "topic": 11
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 22,
+  "fields": {
+    "name": "Tableau Public",
+    "link_url": "https://public.tableau.com/app/discover",
+    "topic": 11
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 23,
+  "fields": {
+    "name": "Nielsen Norman Group",
+    "link_url": "https://www.nngroup.com/",
+    "topic": 12
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 24,
+  "fields": {
+    "name": "UX Design Institute",
+    "link_url": "https://www.uxdesigninstitute.com/",
+    "topic": 12
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 25,
+  "fields": {
+    "name": "Material Design",
+    "link_url": "https://m3.material.io/",
+    "topic": 13
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 26,
+  "fields": {
+    "name": "UI Design Daily",
+    "link_url": "https://www.uidesigndaily.com/",
+    "topic": 13
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 27,
+  "fields": {
+    "name": "ACM SIGCHI",
+    "link_url": "https://sigchi.org/",
+    "topic": 14
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 28,
+  "fields": {
+    "name": "The Interaction Design Foundation (IDF)",
+    "link_url": "https://www.interaction-design.org/",
+    "topic": 14
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 29,
+  "fields": {
+    "name": "Usability.gov",
+    "link_url": "https://www.usability.gov/",
+    "topic": 15
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 30,
+  "fields": {
+    "name": "UserTesting",
+    "link_url": "https://www.usertesting.com/",
+    "topic": 15
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 31,
+  "fields": {
+    "name": "Agile Alliance",
+    "link_url": "https://www.agilealliance.org/",
+    "topic": 16
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 32,
+  "fields": {
+    "name": "Project Management Institute (PMI)",
+    "link_url": "https://www.pmi.org/",
+    "topic": 16
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 33,
+  "fields": {
+    "name": "Project Management Institute (PMI) - Cost Management",
+    "link_url": "https://www.pmi.org/learning/library/cost-management-9106",
+    "topic": 17
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 34,
+  "fields": {
+    "name": "Project Cost Management Software",
+    "link_url": "https://www.g2.com/categories/project-cost-management",
+    "topic": 17
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 35,
+  "fields": {
+    "name": "Association for Conflict Resolution (ACR)",
+    "link_url": "https://acrnet.org/",
+    "topic": 18
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 36,
+  "fields": {
+    "name": "Harvard Law School Program on Negotiation (PON)",
+    "link_url": "https://acrnet.org/",
+    "topic": 18
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 37,
+  "fields": {
+    "name": "Microsoft Project",
+    "link_url": "https://www.microsoft.com/en-us/microsoft-365/project/project-management-software",
+    "topic": 19
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 38,
+  "fields": {
+    "name": "Atlassian JIRA",
+    "link_url": "https://www.microsoft.com/en-us/microsoft-365/project/project-management-software",
+    "topic": 19
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 39,
+  "fields": {
+    "name": "HubSpot Academy",
+    "link_url": "https://academy.hubspot.com/",
+    "topic": 20
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 40,
+  "fields": {
+    "name": "Google Digital Garage",
+    "link_url": "https://academy.hubspot.com/",
+    "topic": 20
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 41,
+  "fields": {
+    "name": "Content Marketing Institute (CMI)",
+    "link_url": "https://contentmarketinginstitute.com/",
+    "topic": 21
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 42,
+  "fields": {
+    "name": "Copyblogger",
+    "link_url": "https://www.copyblogger.com/",
+    "topic": 21
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 43,
+  "fields": {
+    "name": "Google Analytics Academy",
+    "link_url": "https://analytics.google.com/analytics/academy/",
+    "topic": 22
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 44,
+  "fields": {
+    "name": "Google Analytics Help Center",
+    "link_url": "https://analytics.google.com/analytics/academy/",
+    "topic": 22
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 45,
+  "fields": {
+    "name": "ConversionXL",
+    "link_url": "https://cxl.com/",
+    "topic": 23
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 46,
+  "fields": {
+    "name": "Optimizely Academy",
+    "link_url": "https://cxl.com/",
+    "topic": 23
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 47,
+  "fields": {
+    "name": "Agile Alliance",
+    "link_url": "https://www.agilealliance.org/",
+    "topic": 24
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 48,
+  "fields": {
+    "name": "Scrum.org",
+    "link_url": "https://www.scrum.org/",
+    "topic": 24
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 49,
+  "fields": {
+    "name": "Object-Oriented Programming Concepts - Wikipedia",
+    "link_url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    "topic": 25
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 50,
+  "fields": {
+    "name": "Design Patterns Elements of Reusable Object-Oriented Software",
+    "link_url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    "topic": 25
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 51,
+  "fields": {
+    "name": "Git Documentation",
+    "link_url": "https://git-scm.com/doc",
+    "topic": 26
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 52,
+  "fields": {
+    "name": "GitHub Guides",
+    "link_url": "https://github.com/git-guides",
+    "topic": 26
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 53,
+  "fields": {
+    "name": "Martin Fowler Patterns of Enterprise Application Architecture",
+    "link_url": "https://martinfowler.com/books/eaa.html",
+    "topic": 27
+  }
+},
+{
+  "model": "topics.usefullink",
+  "pk": 54,
+  "fields": {
+    "name": "Microsoft Azure Architecture Center",
+    "link_url": "https://learn.microsoft.com/en-us/azure/architecture/",
+    "topic": 27
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 8,
+  "fields": {
+    "name": "Data Science",
+    "description": "Data science is the art and science of extracting valuable insights and knowledge from complex datasets",
+    "pet_project_ideas": "Personalized Movie Recommendation System, Health and Fitness Tracker"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 9,
+  "fields": {
+    "name": "Predictive Analytics",
+    "description": "Predictive analytics leverages a variety of methods, including regression analysis, time series analysis, classification algorithms, and clustering techniques, to build predictive models",
+    "pet_project_ideas": "Stock Price Prediction, Customer Churn Prediction"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 10,
+  "fields": {
+    "name": "Big Data",
+    "description": "Big data is characterized by the volume, velocity, and variety of data generated, as well as the need for real-time or near-real-time processing and analysis.",
+    "pet_project_ideas": "Real-Time Twitter Sentiment Analysis, IoT Data Analytics Platform"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 11,
+  "fields": {
+    "name": "Data Visualization",
+    "description": "Data visualization is the graphical representation of data and information using visual elements such as charts, graphs, maps, and dashboards.",
+    "pet_project_ideas": "Interactive COVID-19 Dashboard, Financial Portfolio Tracker"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 12,
+  "fields": {
+    "name": "User Experience Design",
+    "description": "User experience (UX) design is the process of designing digital products or services with the user's needs, preferences, and behaviors in mind to create meaningful and delightful experiences",
+    "pet_project_ideas": "Mobile App Redesign, E-commerce Website Optimization"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 13,
+  "fields": {
+    "name": "User Interface Design",
+    "description": "User interface (UI) design focuses on designing the visual and interactive elements of digital products or services that users interact with",
+    "pet_project_ideas": "Mobile App Redesign, Dashboard Design"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 14,
+  "fields": {
+    "name": "Human-Computer Interaction",
+    "description": "Human-computer interaction (HCI) is a multidisciplinary field concerned with the design, evaluation, and implementation of interactive computing systems for human use.",
+    "pet_project_ideas": "Gesture-Based Interface Design, Accessibility Improvement Project"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 15,
+  "fields": {
+    "name": "Usability Testing",
+    "description": "Usability testing is a method used in user experience (UX) design to evaluate the ease of use and effectiveness of a digital product or service by observing users as they interact with it.",
+    "pet_project_ideas": "E-commerce Website Usability Testing, Mobile App Prototype Testing"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 16,
+  "fields": {
+    "name": "Project Management Methodologies (Agile, Waterfall, etc.)",
+    "description": "Project management methodologies are frameworks, processes, and practices used to plan, execute, and deliver projects effectively within organizations.",
+    "pet_project_ideas": "Agile Software Development Project, Waterfall Construction Project"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 17,
+  "fields": {
+    "name": "Project Budgeting and Cost Management",
+    "description": "Project budgeting and cost management involve planning, estimating, allocating, and controlling the financial resources required to execute a project within its scope, schedule, and quality constraints.",
+    "pet_project_ideas": "Small Business Startup Budgeting, Construction Project Cost Management"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 18,
+  "fields": {
+    "name": "Conflict Resolution",
+    "description": "Conflict resolution is the process of addressing and resolving conflicts or disagreements that arise between individuals, teams, or groups within an organization.",
+    "pet_project_ideas": "Conflict Resolution Workshop, Mediation Program Implementation"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 19,
+  "fields": {
+    "name": "Project Management Tools (e.g., Microsoft Project, JIRA)",
+    "description": "Project management tools are software applications or platforms designed to facilitate planning, organizing, tracking, and collaborating on projects effectively.",
+    "pet_project_ideas": "Project Management Tool Evaluation, Custom Project Management Dashboard"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 20,
+  "fields": {
+    "name": "Digital Marketing Strategies",
+    "description": "Digital marketing strategies are comprehensive plans and tactics used by organizations to promote their products, services, or brands through digital channels and platforms.",
+    "pet_project_ideas": "Digital Marketing Campaign for a Small Business, Personal Branding and Content Strategy"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 21,
+  "fields": {
+    "name": "Content Marketing",
+    "description": "Content marketing is a strategic marketing approach focused on creating and distributing valuable, relevant, and consistent content to attract and engage a target audience, with the ultimate goal of driving profitable customer action.",
+    "pet_project_ideas": "Content Marketing Campaign for a Niche Audience, Content Creation Challenge"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 22,
+  "fields": {
+    "name": "Google Analytics",
+    "description": "Google Analytics is a powerful web analytics tool provided by Google that allows website owners and marketers to track, measure, and analyze website traffic, user behavior, and performance metrics.",
+    "pet_project_ideas": "Google Analytics Implementation Audit, Website Performance Analysis Report"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 23,
+  "fields": {
+    "name": "Conversion Rate Optimization (CRO)",
+    "description": "Conversion Rate Optimization (CRO) is the process of improving the percentage of website visitors who take a desired action, such as making a purchase, filling out a form, or subscribing to a newsletter.",
+    "pet_project_ideas": "Conversion Rate Optimization Audit, A/B Testing Campaign"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 24,
+  "fields": {
+    "name": "Software Development Methodologies (Agile, Scrum, etc.)",
+    "description": "Software development methodologies are frameworks, processes, and practices used by software development teams to plan, execute, and manage the development of software products or systems.",
+    "pet_project_ideas": "Agile Software Development Project, Waterfall Project Simulation"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 25,
+  "fields": {
+    "name": "Object-Oriented Programming (OOP)",
+    "description": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects which can contain data (attributes) and code (methods) to manipulate that data.",
+    "pet_project_ideas": "Object-Oriented Programming Language Implementation, Object-Oriented Design Patterns Library"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 26,
+  "fields": {
+    "name": "Version Control Systems (e.g., Git)",
+    "description": "Version Control Systems (VCS), also known as source control or revision control systems, are software tools that enable developers to manage changes to source code and collaborate on software development projects effectively.",
+    "pet_project_ideas": "Git Repository Management Tool, Git Workflow Visualization Tool"
+  }
+},
+{
+  "model": "topics.topic",
+  "pk": 27,
+  "fields": {
+    "name": "Software Architecture Patterns",
+    "description": "Software architecture patterns are reusable solutions to common architectural problems or design challenges encountered in software development.",
+    "pet_project_ideas": "Architecture Pattern Comparison Tool, Architecture Pattern Visualization Tool"
+  }
+}
+]
